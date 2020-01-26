@@ -31,25 +31,29 @@ class App extends Component {
   }
   render() {
     const{collapsed}=this.state
+    
     return (
       <Router>
         <div className="App">
           <Navbar color="light" light>
-            <NavbarBrand href="#/">Starter Kit</NavbarBrand>
+            <NavbarBrand href="#/" className='header'>Drone Green</NavbarBrand>
             <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
            <Collapse isOpen={!collapsed} navbar>
             <Nav>
               <NavItem>
-                <NavLink href="#/about">About</NavLink>
+                <NavLink href="#/about" className='header'>About</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://www.we-connect-the-dots.org/">WCTD Home</NavLink>
+                <NavLink href="https://www.we-connect-the-dots.org/" className='header'>WCTD Home</NavLink>
               </NavItem>
             </Nav>
             </Collapse>
           </Navbar>
           <Route exact path="/" component={HomePage} />
           <Route path="/about" component={AboutPage} />
+        <div>
+        {/*FOOTER FOOTER*/}  
+        </div>  
         </div>
       </Router>
     );
