@@ -16,16 +16,15 @@ const Footer = (props) => {
                 <p>Contact Information</p>
                 </div>
                 <div className="column">
-                <p>Contact Us</p>
+                <p>Contact</p>
                 <p>Donations</p>
                 </div>
             </div>
             </div>
                <div className="FooterButton"> 
-                <a href="#" className="fa fa-facebook"></a>
-                <a href="#" className="fa fa-twitter"></a>
-                <a href="#" className="fa fa-youtube"></a>
-                <a href="#" className="fa fa-instagram"></a>
+                <a href="https://twitter.com/DroneEarth" className="fa fa-twitter"></a>
+                <a href="https://www.youtube.com/channel/UCWzZAzNOJlZXIbP0FVjM46w?" className="fa fa-youtube"></a>
+                <a href="https://www.instagram.com/official_drone_earth/" className="fa fa-instagram"></a>
             </div>
             <div className="copyright">
             <h6>180 Micheal Drive | Syosset, NY 11791 | 800-888-8888 | wearedroneearth@gmail.com</h6>

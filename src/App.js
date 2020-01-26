@@ -17,6 +17,7 @@ import {
 import HomePage from './pages/HomePage';
 import Blog from './pages/Blog';
 import ProductInfo from './pages/ProductInfo';
+import ContactUs from './pages/ContactUs';
 
 class App extends Component {
   constructor (props){
@@ -47,12 +48,16 @@ class App extends Component {
               <NavItem>
                 <NavLink href="#/ProductInfo" className='header'>Product Information</NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink href="#/ContactUs" className='header'>Contact</NavLink>
+              </NavItem>
             </Nav>
             </Collapse>
           </Navbar>
           <Route exact path="/" component={HomePage} />
           <Route path="/Blog" component={Blog} />
           <Route path="/ProductInfo" component={ProductInfo} />
+          <Route path="/ContactUs" component={ContactUs} />
         <div>
         {/*FOOTER FOOTER*/}  
         </div>  
