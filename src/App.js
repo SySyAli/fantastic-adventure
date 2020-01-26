@@ -16,6 +16,7 @@ import {
 
 import HomePage from './pages/HomePage';
 import Blog from './pages/Blog';
+import ProductInfo from './pages/ProductInfo';
 
 class App extends Component {
   constructor (props){
@@ -50,6 +51,7 @@ class App extends Component {
             </Collapse>
           </Navbar>
           <Route exact path="/" component={HomePage} />
+          <Route path="/Blog" component={Blog} />
           <Route path="/Blog" component={Blog} />
         <div>
         {/*FOOTER FOOTER*/}  
