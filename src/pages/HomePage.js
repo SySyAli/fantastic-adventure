@@ -28,7 +28,7 @@ class HomePage extends Component {
       <div class="twoparallax"></div>
           <div className="AboutUs team"><h1>Meet the Team</h1>
           <p>Cyril Mathew - An energetic individual who is passionate about making sure that his voice is heard by the masses. He is our head of Public Relations.</p>
-            <p>Bram Cheevings - A talented young man who has a talent for making, anything, even trash, look good. He is our Graphic designer.</p>
+            <p>Bram Cheevers - A talented young man who has a talent for making, anything, even trash, look good. He is our Graphic designer.</p>
             <p>Syed Ali - The visionary high-schooler who was the driving force behind making our dream a reality. He is our Lead Programmer.</p>
             <p>Alvin Paul - A charismatic young man who was crucial in turning DroneEarth from a Dream into a reality. He is the Assistant Programmer.</p>  
           </div>

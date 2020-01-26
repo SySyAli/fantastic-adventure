@@ -35,19 +35,19 @@ class ContactUs extends Component {
         <Col md={6}>
           <FormGroup>
             <Label for="exampleCity">City</Label>
-            <Input type="text" name="city" id="exampleCity"/>
+            <Input type="text" name="city" id="exampleCity" placeholder="ExampleCity"/>
           </FormGroup>
         </Col>
         <Col md={4}>
           <FormGroup>
             <Label for="exampleState">State</Label>
-            <Input type="text" name="state" id="exampleState"/>
+            <Input type="text" name="state" id="exampleState" placeholder="Initals"/>
           </FormGroup>
         </Col>
         <Col md={2}>
           <FormGroup>
             <Label for="exampleZip">Zip</Label>
-            <Input type="text" name="zip" id="exampleZip"/>
+            <Input type="text" name="zip" id="exampleZip" placeholder="#####"/>
           </FormGroup>  
         </Col>
       </Row>
