@@ -1,6 +1,5 @@
 import React from 'react';
-import { Card, Button, CardHeader, CardFooter, CardBody,
-  CardTitle, CardText } from 'reactstrap';
+import { Card, CardBody} from 'reactstrap';
 
 const Footer = (props) => {
   return (
@@ -9,24 +8,24 @@ const Footer = (props) => {
  
         <CardBody>
           <>
-            <div class="ui segment">
-            <div class="ui two column very relaxed grid">
-                <div class="column">
+            <div className="ui segment">
+            <div className="ui two column very relaxed grid">
+                <div className="column">
                 <p>Home</p>
                 <p>Blog</p>
                 <p>Contact Information</p>
                 </div>
-                <div class="column">
+                <div className="column">
                 <p>Contact Us</p>
                 <p>Donations</p>
                 </div>
             </div>
             </div>
                <div className="FooterButton"> 
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-youtube"></a>
-                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" className="fa fa-facebook"></a>
+                <a href="#" className="fa fa-twitter"></a>
+                <a href="#" className="fa fa-youtube"></a>
+                <a href="#" className="fa fa-instagram"></a>
             </div>
             <div className="copyright">
             <h6>180 Micheal Drive | Syosset, NY 11791 | 800-888-8888 | wearedroneearth@gmail.com</h6>

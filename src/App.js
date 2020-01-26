@@ -15,7 +15,7 @@ import {
 } from 'reactstrap';
 
 import HomePage from './pages/HomePage';
-import AboutPage from './pages/AboutPage';
+import Blog from './pages/Blog';
 
 class App extends Component {
   constructor (props){
@@ -35,22 +35,22 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
-          <Navbar color="light" light>
+          <Navbar color="light" light className="navbar">
             <NavbarBrand href="#/" className='header'>Drone Green</NavbarBrand>
             <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
            <Collapse isOpen={!collapsed} navbar>
             <Nav>
               <NavItem>
-                <NavLink href="#/about" className='header'>About</NavLink>
+                <NavLink href="#/Blog" className='header'>Blog</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="https://www.we-connect-the-dots.org/" className='header'>WCTD Home</NavLink>
+                <NavLink href="#/ProductInfo" className='header'>Product Information</NavLink>
               </NavItem>
             </Nav>
             </Collapse>
           </Navbar>
           <Route exact path="/" component={HomePage} />
-          <Route path="/about" component={AboutPage} />
+          <Route path="/Blog" component={Blog} />
         <div>
         {/*FOOTER FOOTER*/}  
         </div>  

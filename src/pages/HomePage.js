@@ -24,6 +24,7 @@ class HomePage extends Component {
       </div>
       </div>
       </div>
+      <div class="twoparallax"></div>
     <div className="MeettheTeam">
     <div className="AboutUs"><p>Meet the Team</p></div>
     

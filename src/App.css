@@ -8,7 +8,14 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
+.twoparallax {
+  background-image: url("https://i.imgur.com/Nra1AaV.png");
+  min-height: 500px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .large{
   width: 100%;
 }
@@ -88,4 +95,9 @@ opacity: 0.7;
 }
 .copyright{
   text-align: center
+}
+.navbar{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  color: #000;
 }
