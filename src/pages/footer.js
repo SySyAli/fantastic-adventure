@@ -10,14 +10,17 @@ const Footer = (props) => {
           <>
             <div className="ui segment">
             <div className="ui two column very relaxed grid">
-                <div className="column">
-                <p>Home</p>
-                <p>Blog</p>
-                <p>Contact Information</p>
+                <div className="footer">
+                <a href="#/">Home </a>
+
+                <a href="#/Blog">Blog </a>
+
+                <a href="#/ProductInfo">ProductInformation </a>
+
+                <a href="#/ContactUs">Contact </a>
                 </div>
                 <div className="column">
-                <p>Contact</p>
-                <p>Donations</p>
+
                 </div>
             </div>
             </div>
@@ -27,7 +30,7 @@ const Footer = (props) => {
                 <a href="https://www.instagram.com/official_drone_earth/" className="fa fa-instagram"></a>
             </div>
             <div className="copyright">
-            <h6>180 Micheal Drive | Syosset, NY 11791 | 800-888-8888 | wearedroneearth@gmail.com</h6>
+            <h6>180 Michael Drive | Syosset, NY 11791 | 800-888-8888 | wearedroneearth@gmail.com</h6>
             <h6>All site content copyright © 2020 Drone Earth | Drone Earth. All rights reserved.</h6>
             </div>
           </>

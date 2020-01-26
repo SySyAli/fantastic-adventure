@@ -1,65 +1,59 @@
 import React, { Component } from 'react';
 import './ContactUs.css';
 import Footer from './footer.js'; 
-import { Form, Input, TextArea, Button, Select } from 'semantic-ui-react'
+import { Col, Row, Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
-
-const genderOptions = [
-  { key: 'm', text: 'Male', value: 'male' },
-  { key: 'f', text: 'Female', value: 'female' },
-  { key: 'o', text: 'Other', value: 'other' },
-]
 
 class ContactUs extends Component {
   render() {
     return (
         <>
-         <Form>
-    <Form.Group widths='equal'>
-      <Form.Field
-        id='form-input-control-first-name'
-        control={Input}
-        label='First name'
-        placeholder='First name'
-      />
-      <Form.Field
-        id='form-input-control-last-name'
-        control={Input}
-        label='Last name'
-        placeholder='Last name'
-      />
-      <Form.Field
-        control={Select}
-        options={genderOptions}
-        label={{ children: 'Gender', htmlFor: 'form-select-control-gender' }}
-        placeholder='Gender'
-        search
-        searchInput={{ id: 'form-select-control-gender' }}
-      />
-    </Form.Group>
-    <Form.Field
-      id='form-textarea-control-opinion'
-      control={TextArea}
-      label='Opinion'
-      placeholder='Opinion'
-    />
-    <Form.Field
-      id='form-input-control-error-email'
-      control={Input}
-      label='Email'
-      placeholder='joe@schmoe.com'
-      error={{
-        content: 'Please enter a valid email address',
-        pointing: 'below',
-      }}
-    />
-    <Form.Field
-      id='form-button-control-public'
-      control={Button}
-      content='Confirm'
-      label='Label with htmlFor'
-    />
-  </Form>  
+                       <div className="FooterButton"> 
+                <a href="https://twitter.com/DroneEarth" className="fa fa-twitter"></a>
+                <a href="https://www.youtube.com/channel/UCWzZAzNOJlZXIbP0FVjM46w?" className="fa fa-youtube"></a>
+                <a href="https://www.instagram.com/official_drone_earth/" className="fa fa-instagram"></a>
+            </div>
+       <Form className="form">
+      <Row form>
+        <Col md={6}>
+          <FormGroup>
+            <Label for="exampleEmail">Email</Label>
+            <Input type="email" name="email" id="exampleEmail" placeholder="with a placeholder" />
+          </FormGroup>
+        </Col>
+
+      </Row>
+      <FormGroup>
+        <Label for="exampleAddress">Address</Label>
+        <Input type="text" name="address" id="exampleAddress" placeholder="1234 Main St"/>
+      </FormGroup>
+      <FormGroup>
+        <Label for="exampleAddress2">Address 2</Label>
+        <Input type="text" name="address2" id="exampleAddress2" placeholder="Apartment, studio, or floor"/>
+      </FormGroup>
+      <Row form>
+        <Col md={6}>
+          <FormGroup>
+            <Label for="exampleCity">City</Label>
+            <Input type="text" name="city" id="exampleCity"/>
+          </FormGroup>
+        </Col>
+        <Col md={4}>
+          <FormGroup>
+            <Label for="exampleState">State</Label>
+            <Input type="text" name="state" id="exampleState"/>
+          </FormGroup>
+        </Col>
+        <Col md={2}>
+          <FormGroup>
+            <Label for="exampleZip">Zip</Label>
+            <Input type="text" name="zip" id="exampleZip"/>
+          </FormGroup>  
+        </Col>
+      </Row>
+
+      <Button>Sign In</Button>
+    </Form>
         <Footer/>
         </>
     );
