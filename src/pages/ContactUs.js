@@ -18,7 +18,7 @@ class ContactUs extends Component {
         <Col md={6}>
           <FormGroup>
             <Label for="exampleEmail">Email</Label>
-            <Input type="email" name="email" id="exampleEmail" placeholder="with a placeholder" />
+            <Input type="email" name="email" id="exampleEmail" placeholder="johndoe@example.com" />
           </FormGroup>
         </Col>
 
