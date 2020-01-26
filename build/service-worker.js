@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-starter/precache-manifest.a418f3fdf6d4a2bcd64ba3b5ce7ce53d.js"
+  "/fantastic-adventure/precache-manifest.53718b45e9c31c86652b81de4fe71e99.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/react-starter/index.html", {
+workbox.routing.registerNavigationRoute("/fantastic-adventure/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });

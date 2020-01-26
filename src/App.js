@@ -37,7 +37,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <Navbar color="light" light className="navbar">
-            <NavbarBrand href="#/" className='header'>Drone Green</NavbarBrand>
+            <NavbarBrand href="#/" className='header'>Drone Earth</NavbarBrand>
             <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
            <Collapse isOpen={!collapsed} navbar>
             <Nav>
