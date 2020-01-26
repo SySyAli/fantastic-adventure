@@ -1,15 +1,15 @@
 {
-  "main.css": "/react-starter/static/css/main.cb95b6eb.chunk.css",
-  "main.js": "/react-starter/static/js/main.1defa608.chunk.js",
-  "main.js.map": "/react-starter/static/js/main.1defa608.chunk.js.map",
-  "static/css/1.84027355.chunk.css": "/react-starter/static/css/1.84027355.chunk.css",
-  "static/js/1.a99c1b79.chunk.js": "/react-starter/static/js/1.a99c1b79.chunk.js",
-  "static/js/1.a99c1b79.chunk.js.map": "/react-starter/static/js/1.a99c1b79.chunk.js.map",
-  "runtime~main.js": "/react-starter/static/js/runtime~main.18eedbb6.js",
-  "runtime~main.js.map": "/react-starter/static/js/runtime~main.18eedbb6.js.map",
-  "static/css/main.cb95b6eb.chunk.css.map": "/react-starter/static/css/main.cb95b6eb.chunk.css.map",
-  "static/css/1.84027355.chunk.css.map": "/react-starter/static/css/1.84027355.chunk.css.map",
-  "index.html": "/react-starter/index.html",
-  "precache-manifest.a418f3fdf6d4a2bcd64ba3b5ce7ce53d.js": "/react-starter/precache-manifest.a418f3fdf6d4a2bcd64ba3b5ce7ce53d.js",
-  "service-worker.js": "/react-starter/service-worker.js"
+  "main.css": "/fantastic-adventure/static/css/main.2688feda.chunk.css",
+  "main.js": "/fantastic-adventure/static/js/main.eeaa160d.chunk.js",
+  "main.js.map": "/fantastic-adventure/static/js/main.eeaa160d.chunk.js.map",
+  "static/css/1.84027355.chunk.css": "/fantastic-adventure/static/css/1.84027355.chunk.css",
+  "static/js/1.a99c1b79.chunk.js": "/fantastic-adventure/static/js/1.a99c1b79.chunk.js",
+  "static/js/1.a99c1b79.chunk.js.map": "/fantastic-adventure/static/js/1.a99c1b79.chunk.js.map",
+  "runtime~main.js": "/fantastic-adventure/static/js/runtime~main.772295d0.js",
+  "runtime~main.js.map": "/fantastic-adventure/static/js/runtime~main.772295d0.js.map",
+  "static/css/main.2688feda.chunk.css.map": "/fantastic-adventure/static/css/main.2688feda.chunk.css.map",
+  "static/css/1.84027355.chunk.css.map": "/fantastic-adventure/static/css/1.84027355.chunk.css.map",
+  "index.html": "/fantastic-adventure/index.html",
+  "precache-manifest.53718b45e9c31c86652b81de4fe71e99.js": "/fantastic-adventure/precache-manifest.53718b45e9c31c86652b81de4fe71e99.js",
+  "service-worker.js": "/fantastic-adventure/service-worker.js"
 }
