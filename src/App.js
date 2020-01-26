@@ -52,7 +52,7 @@ class App extends Component {
           </Navbar>
           <Route exact path="/" component={HomePage} />
           <Route path="/Blog" component={Blog} />
-          <Route path="/Blog" component={Blog} />
+          <Route path="/ProductInfo" component={ProductInfo} />
         <div>
         {/*FOOTER FOOTER*/}  
         </div>  
