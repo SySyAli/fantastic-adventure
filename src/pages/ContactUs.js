@@ -52,7 +52,7 @@ class ContactUs extends Component {
         </Col>
       </Row>
 
-      <Button>Sign In</Button>
+      <Button>Submit</Button>
     </Form>
         <Footer/>
         </>
