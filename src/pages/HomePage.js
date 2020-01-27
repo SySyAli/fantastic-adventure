@@ -34,9 +34,7 @@ class HomePage extends Component {
           </div>
       <Footer/>
     </>
-
     );
   }
 }
-
 export default HomePage;

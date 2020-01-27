@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/fantastic-adventure/precache-manifest.53718b45e9c31c86652b81de4fe71e99.js"
+  "/fantastic-adventure/precache-manifest.1df8b02dd879fb590934b76e85bca2eb.js"
 );
 
 workbox.clientsClaim();
